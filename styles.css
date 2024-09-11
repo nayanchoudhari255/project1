@@ -325,9 +325,7 @@ textarea{
 .last-txt span{
     color: yellow;
 }
-  
-  
-  @media screen and (max-width: 400px){ 
+   @media screen and (max-width: 414px){ 
    
       *{
           margin: 0;
@@ -418,13 +416,13 @@ textarea{
         } 
         
         .box{
-        
+       
           left: 20%;
           position: absolute;
           height: 195px;
           width: 300px;
           background-color:rgba(64,93,114,0.2);
-          
+        
         }
         
         .m1{
@@ -432,7 +430,7 @@ textarea{
         
         }  
         .m2{
-          top: 43%;
+        top: 48%;
          
         }
         
@@ -757,6 +755,7 @@ textarea{
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat; 
+     
       }
       
       .navbar {
@@ -801,7 +800,7 @@ textarea{
       } 
       
       .box{
-      
+
         left: 20%;
         position: absolute;
         height: 195px;
@@ -816,17 +815,19 @@ textarea{
     
       }  
       .m2{
-        top: 39%;
+        top: 44%;
         left: 25%;
+      
+
       }
       
       .m3{
-        top: 77%;
+        top: 87%;
         left: 25%;
         
       }
       .m4{
-        top: 117%;
+        top: 130%;
         left: 25%;
       }
       
@@ -2230,3 +2231,4 @@ textarea{
     color: yellow;
   }
 }
+ 
