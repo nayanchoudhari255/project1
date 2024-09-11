@@ -1952,23 +1952,23 @@ textarea{
   }
   
   .m1{
-    top: 9%;
+    top: 8%;
   left: 40%;
   }  
   .m2{
-    top: 65%;
+    top: 59%;
     height: 300px;
     left: 40%;
   }
   
   .m3{
-    top: 129%;
+    top: 117%;
     height: 300px;
     left: 40%;
   }
   .m4{
-    top: 193%;
-  height: 302px;
+    top: 176%;
+  height: 260px;
   left: 40%;
   }
   
@@ -2204,7 +2204,7 @@ textarea{
   }
   textarea{
     height: 40px;
-    width: 250px;
+    width: 220px;
     background-color:#405D72;
   }
   .in{
@@ -2222,7 +2222,7 @@ textarea{
   }
   .last-txt{
     color: white;
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
     font-size: 11px;
   }
