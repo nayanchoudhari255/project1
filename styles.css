@@ -18,16 +18,18 @@ body{
 .pimg1{
     background-image: url(img/first-bg.png);
      min-height: 450px;
-   
+   width: 100%;
        }
  .pimg2{
      background-image: url(img/second-bg.png);
       min-height: 450px;
+      width: 100%;
      
       }
   .pimg3{
      background-image: url(img/third-bg.png);
       min-height: 450px;
+      width: 100%;
      
     }
   .pimg4{
@@ -324,1159 +326,398 @@ textarea{
     color: yellow;
 }
   
-
- 
-@media screen and (max-width: 414px){
+  
+  @media screen and (max-width: 400px){ 
    
-    html,body{
-        box-sizing: border-box;
-        height: 100%;
-        margin: 0;
-        font-size: 16px;
-        font-family: "Lato",sans-serif;
-        font-weight: 400;
-        line-height: 1.8em;
-        color: #666;
-      
-    }
-    
-    .pimg1{
-        background-image: url(img/first-bg.png);
-         min-height: 330px;
-       width: 100%;
-           }
-     .pimg2{
-         background-image: url(img/second-bg.png);
-          min-height: 330px;
-          width: 100%;
-          }
-      .pimg3{
-         background-image: url(img/third-bg.png);
-          min-height: 330px;
-          width: 100%;
+      *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
         }
-      .pimg4{
-        background-image: url(img/fourth-bg.png);
-         min-height: 330px;
+        body{
+        
+          height: 100%;
+          margin: 0;
+          font-size: 16px;
+          font-family: "Lato",sans-serif;
+          font-weight: 400;
+          line-height: 1.8em;
+          color: #666;
+        
+        }
+        
+        .pimg1{
+          background-image: url(img/first-bg.png);
+           min-height: 200px;
          width: 100%;
-        }
-      
-    .pimg1 ,.pimg2 ,.pimg3,.pimg4{
-        position: relative;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat; 
-    }
-    .navbar {
-        position: relative;
-    top: 0;
-        margin: 0;
-       padding: 0;
-        width: 40px;
-        margin-top: -145%;
-        
-        height: 100%;
-    }
-    ul{
-        list-style-type: none;
-       width: 40px;
-       top: 0%;
-       padding: 10%;
-       margin: 0%;
-       position: fixed;
-       background-color:  #405D72;
-       height: 100%;
-      }
-        
-    li a {
-        margin-top: 20px;
-        display: block;
-        color: #000;
-        padding: 20px;
-       
-        text-decoration: none;
-       font-size: 15px;
-      }
-       
-      li a:hover {
-        background-color:red;
-        color: white;
-      }
-    
-    i{
-        color: white;
-        margin-left: -10px;
-    } 
-    
-    .box{
-  
-        left: 15%;
-        position: absolute;
-        height: 200px;
-        width: 240px;
-        background-color:rgba(64,93,114,0.2);
-    }
-    
-    .m1{
-        top: 9%;
-        height: 285px;
-        left: 20%;
-    }  
-    .m2{
-        top: 68%;
-        height: 325px;
-        left: 20%;
-    }
-    
-    .m3{
-        top: 135%;
-        height: 330px;
-        left: 20%;
-    }
-    .m4{
-        top: 203%;
-        height: 319px;
-        left: 20%;
-    }
-    .text1{
-   
-        margin-left: 20px;
-        margin-top: 20px;
-    }
-    
-     #home h1{
-        opacity: 1;
-    color: white;
-    font-weight: 600;
-    } 
-     h1 span{
-        font-size: 12px;
-       font-weight: 300;
-       margin-left: 1px;
-    }
-    .text2{
-        background-color:#405D72;
-        height: 185px;
-        width: 260px;
-        margin-left: 30px;
-        margin-top: 10px;
-        padding: 10px;
-       display: flex;
-    }
-    .text2 h2{
-       text-decoration: underline;
-        font-size: 14px;
-        font-weight: 200; 
-        color: white;
-       
-    }
-    .text2 p{
-        opacity: 1;
-        color: white;
-        font-size: 12px;
-      
-    }
-    .text2 p span{
-        color: yellow;
-    }
-    .text2 h2 span{
-        color: red;
-    }
-    .btn{
-        height: 30px;
-        width: 80px;
-        background-color: red;
-        color: white;
-  
-    } 
-    #bt1,#bt2{
-        font-size: 7px;
-    }
-   .logo img{
-    height: 60px;
-    width: 60px;
-    margin-top: 40px;
-    margin-left:10px ;
-   }
-   #about h1{
-    font-weight: 200;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-}
-
-#about img{
-    width: 200px;
-    height: 150px;
-    margin-left: -20px;
-}
-
-#about .text4{
- height: 190px;
- width: 230px;
- background-color: white;
-position: absolute;
-left: 32%;
-top: 30%;
-padding: 5px;
-}
-hr{
-
-  color: lightgrey;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
- #about .text4 h2{
-    font-size: 12px;
-    font-weight: 300px;
-    color:black;
-    margin-left:10px ;
-   
-}
-#about .text4 p ,button{
-    margin-left:10px ; 
-    font-size: 10px;
-    margin-top: -10px;
-}
-#gallery h2{
-    font-weight: 300;
-    text-align: center;
-    color: white;
-    font-size: 20px
-} 
- #container{
- 
-  width: 300px;
-  height: 280px;
-  margin-left: -24px;
- 
-} 
-
- #fx {
-    display: flex; 
-   justify-content: space-evenly;
-    
-    gap: 10px;
-    width: 300px;
-    height: 280px;
-}
-#fx img{
-    height: 50px;
-    width: 210px;
-}
-
-.carousel-inner{
-   
-    width: 300px;
-    height: 280px;   
-}
-.dv{
-   
-    height: 180px;
-  width: 90px;
-    background-color: white;
-    margin-left: 1px;
-    
-   
-}
-.b1{
-    position: absolute;
-    top: 15%;
-   left: -3%;
-}
-.b1,.b2,.b3 h4{
-    font-weight: 300;
-    color: black;
-    padding: 5px;
-  
-}
-#h4{
-    font-size: 12px;
-}
-.dv p{
-    font-weight: 400;
-    color: black;
-    font-size: 10px;
-    overflow: hidden;
- 
-}
-.b3 p{
-    margin-left: 10px;
-}
-.b2{
-    position: absolute;
-    top: 15%;
-    left:32%;
-}
-.b3{
-    position: absolute;
-    top: 15%;
-    left:70%;
-} 
-.b1,.b2,.b3 button{
-    margin-left:10px ;
-}
-.b3 p{
-    margin-top: -10px;
-}
-.b3 button{
-    margin-bottom: 10px;
-}
-.bt3{
-    height: 30px;
-    width: 70px;
-}
-#btn3{
-    font-size: 6px;
-}
-.dvb1{
-    height: 70px;
-    width: 180px;
-    margin-left: 10px;
-}
-#last3{
-    left: 30%;
-    width: 100px;
-}
-.btn:hover{
-    background-color: rgb(210, 25, 25);
-}
-.carousel-indicators .act{
-background-color: red;
-} 
-#contact h1{
-    color: white;
-    text-align: center;
-    font-size: 20px;
-}
-.fm{
-    background-color:rgba(64,93,114,0.2);
-    height: 220px;
-    width: 240px;  
-}
-form{
-    padding: 5px;
-  
-}
-input,textarea{
-    background-color:#405D72;
-    height: 30px;
-    width: 200px;
-    border: none;
-   padding: 5px;
-  
-}
-input::placeholder,textarea::placeholder{
-    color: white;
-   
-}
-textarea{
-    height: 80px;
-    width: 200px;
-    background-color:#405D72;
-}
-.in{
-    margin-top: 10px;
-}
-.dv6{
-    position: absolute;
-    top: 40%;
-    left: 65%;
-    height: 100px;
-    width: 140px;
-    background-color: white;
-    padding: 10px;
-    font-size: 10px;
-    overflow: hidden;
-}
-.last-txt{
-    color: white;
-    margin-top: 10px;
-    text-align: center;
-    font-size: 7px;
-}
-.last-txt span{
-    color: yellow;
-}
-
-#conbtn{
-    font-size: 8px;
-    text-align: center;
-}
-
-
-}
-
-@media screen and (max-width: 660px){
-   
-    html,body{
-        box-sizing: border-box;
-        height: 100%;
-        margin: 0;
-        font-size: 16px;
-        font-family: "Lato",sans-serif;
-        font-weight: 400;
-        line-height: 1.8em;
-        color: #666;
-      
-    }
-    
-    .pimg1{
-        background-image: url(img/first-bg.png);
-         min-height: 330px;
-       width: 100%;
-           }
-     .pimg2{
-         background-image: url(img/second-bg.png);
-          min-height: 330px;
-          width: 100%;
+             }
+        .pimg2{
+           background-image: url(img/second-bg.png);
+            min-height: 200px;
+            width: 100%;
+           
+            }
+        .pimg3{
+           background-image: url(img/third-bg.png);
+            min-height: 200px;
+            width: 100%;
+           
           }
-      .pimg3{
-         background-image: url(img/third-bg.png);
-          min-height: 330px;
-          width: 100%;
-        }
-      .pimg4{
-        background-image: url(img/fourth-bg.png);
-         min-height: 330px;
-         width: 100%;
-        }
-      
-    .pimg1 ,.pimg2 ,.pimg3,.pimg4{
-        position: relative;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat; 
-    }
-    .navbar {
-        position: relative;
-    top: 0;
-        margin: 0;
-       padding: 0;
-        width: 40px;
-        margin-top: -145%;
-        
-        height: 100%;
-    }
-    ul{
-        list-style-type: none;
-       width: 40px;
-       top: 0%;
-       padding: 0%;
-       margin: 0%;
-       position: fixed;
-       background-color:  #405D72;
-       height: 100%;
-      }
-        
-    li a {
-        margin-top: 20px;
-        display: block;
-        color: #000;
-        padding: 20px;
-        text-decoration: none;
-       font-size: 15px;
-       text-align: center;
-      }
-       
-      li a:hover {
-        background-color:red;
-        color: white;
-      }
-    
-    i{
-        color: white;
-        margin-left: -10px;
-    } 
-    
-    .box{
-  
-        left: 15%;
-        position: absolute;
-        height: 200px;
-        width: 240px;
-        background-color:rgba(64,93,114,0.2);
-    }
-    
-    .m1{
-        top: 9%;
-        height: 285px;
-        left: 30%;
-    }  
-    .m2{
-        top: 71%;
-        height: 325px;
-        left: 30%;
-    }
-    
-    .m3{
-        top: 142%;
-        height: 330px;
-        left: 30%;
-    }
-    .m4{
-        top: 213%;
-        height: 319px;
-        left: 30%;
-    }
-    .text1{
-   
-        margin-left: 20px;
-        margin-top: 20px;
-    }
-    
-     #home h1{
-        opacity: 1;
-    color: white;
-    font-weight: 600;
-    } 
-     h1 span{
-        font-size: 12px;
-       font-weight: 300;
-       margin-left: 1px;
-    }
-    .text2{
-        background-color:#405D72;
-        height: 185px;
-        width: 260px;
-        margin-left: 30px;
-        margin-top: 10px;
-        padding: 10px;
-       display: flex;
-    }
-    .text2 h2{
-       text-decoration: underline;
-        font-size: 14px;
-        font-weight: 200; 
-        color: white;
-       
-    }
-    .text2 p{
-        opacity: 1;
-        color: white;
-        font-size: 12px;
-      
-    }
-    .text2 p span{
-        color: yellow;
-    }
-    .text2 h2 span{
-        color: red;
-    }
-    .btn{
-        height: 30px;
-        width: 80px;
-        background-color: red;
-        color: white;
-  
-    } 
-    #bt1,#bt2{
-        font-size: 7px;
-    }
-   .logo img{
-    height: 60px;
-    width: 60px;
-    margin-top: 40px;
-    margin-left:10px ;
-   }
-   #about h1{
-    font-weight: 200;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-}
-
-#about img{
-    width: 200px;
-    height: 150px;
-    margin-left: -20px;
-}
-
-#about .text4{
- height: 190px;
- width: 230px;
- background-color: white;
-position: absolute;
-left: 32%;
-top: 30%;
-padding: 5px;
-}
-hr{
-
-  color: lightgrey;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
- #about .text4 h2{
-    font-size: 12px;
-    font-weight: 300px;
-    color:black;
-    margin-left:10px ;
-   
-}
-#about .text4 p ,button{
-    margin-left:10px ; 
-    font-size: 10px;
-    margin-top: -10px;
-}
-#gallery h2{
-    font-weight: 300;
-    text-align: center;
-    color: white;
-    font-size: 20px
-} 
- #container{
- 
-  width: 300px;
-  height: 280px;
-  margin-left: -24px;
- 
-} 
-
- #fx {
-    display: flex; 
-   justify-content: space-evenly;
-    
-    gap: 10px;
-    width: 300px;
-    height: 280px;
-}
-#fx img{
-    height: 50px;
-    width: 210px;
-}
-
-.carousel-inner{
-   
-    width: 300px;
-    height: 280px;   
-}
-.dv{
-   
-    height: 180px;
-  width: 90px;
-    background-color: white;
-    margin-left: 1px;
-    
-   
-}
-.b1{
-    position: absolute;
-    top: 15%;
-   left: -3%;
-}
-.b1,.b2,.b3 h4{
-    font-weight: 300;
-    color: black;
-    padding: 5px;
-  
-}
-#h4{
-    font-size: 12px;
-}
-.dv p{
-    font-weight: 400;
-    color: black;
-    font-size: 10px;
-    overflow: hidden;
- 
-}
-.b3 p{
-    margin-left: 10px;
-}
-.b2{
-    position: absolute;
-    top: 15%;
-    left:32%;
-}
-.b3{
-    position: absolute;
-    top: 15%;
-    left:70%;
-} 
-.b1,.b2,.b3 button{
-    margin-left:10px ;
-}
-.b3 p{
-    margin-top: -10px;
-}
-.b3 button{
-    margin-bottom: 10px;
-}
-.bt3{
-    height: 30px;
-    width: 70px;
-}
-#btn3{
-    font-size: 6px;
-}
-.dvb1{
-    height: 70px;
-    width: 180px;
-    margin-left: 10px;
-}
-#last3{
-    left: 30%;
-    width: 100px;
-}
-.btn:hover{
-    background-color: rgb(210, 25, 25);
-}
-.carousel-indicators .act{
-background-color: red;
-} 
-#contact h1{
-    color: white;
-    text-align: center;
-    font-size: 20px;
-}
-.fm{
-    background-color:rgba(64,93,114,0.2);
-    height: 220px;
-    width: 240px;  
-}
-form{
-    padding: 5px;
-  
-}
-input,textarea{
-    background-color:#405D72;
-    height: 30px;
-    width: 200px;
-    border: none;
-   padding: 5px;
-  
-}
-input::placeholder,textarea::placeholder{
-    color: white;
-   
-}
-textarea{
-    height: 80px;
-    width: 200px;
-    background-color:#405D72;
-}
-.in{
-    margin-top: 10px;
-}
-.dv6{
-    position: absolute;
-    top: 40%;
-    left: 65%;
-    height: 100px;
-    width: 140px;
-    background-color: white;
-    padding: 10px;
-    font-size: 10px;
-    overflow: hidden;
-}
-.last-txt{
-    color: white;
-    margin-top: 10px;
-    text-align: center;
-    font-size: 7px;
-}
-.last-txt span{
-    color: yellow;
-}
-
-#conbtn{
-    font-size: 8px;
-    text-align: center;
-}
-
-
-}
-@media screen and (min-width: 661px) and (max-width: 980px){
-   
-    html,body{
-        box-sizing: border-box;
-        height: 100%;
-        margin: 0;
-        font-size: 16px;
-        font-family: "Lato",sans-serif;
-        font-weight: 400;
-        line-height: 1.8em;
-        color: #666;
-      
-    }
-    
-    .pimg1{
-        background-image: url(img/first-bg.png);
-         min-height: 400px;
-       width: 100%;
-           }
-     .pimg2{
-         background-image: url(img/second-bg.png);
-          min-height: 330px;
-          width: 100%;
+        .pimg4{
+          background-image: url(img/fourth-bg.png);
+           min-height: 200px;
+           width: 100%;
           }
-      .pimg3{
-         background-image: url(img/third-bg.png);
-          min-height: 330px;
-          width: 100%;
-        }
-      .pimg4{
-        background-image: url(img/fourth-bg.png);
-         min-height: 330px;
-         width: 100%;
-        }
-      
-    .pimg1 ,.pimg2 ,.pimg3,.pimg4{
-        position: relative;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat; 
-    }
-    .navbar {
-        position: relative;
-    top: 0;
-        margin: 0;
-       padding: 0;
-        width: 40px;
-        margin-top: -145%;
         
-        height: 100%;
-    }
-    ul{
-        list-style-type: none;
-       width: 40px;
-       top: 0%;
-       padding: 0%;
-       margin: 0%;
-       position: fixed;
-       background-color:  #405D72;
-       height: 100%;
-      }
+        .pimg1 ,.pimg2 ,.pimg3,.pimg4{
+          position: relative;
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat; 
+        }
         
-    li a {
-        margin-top: 20px;
-        display: block;
-        color: #000;
-        padding: 20px;
-        text-decoration: none;
-       font-size: 15px;
-       text-align: center;
-      }
-       
-      li a:hover {
-        background-color:red;
+        .navbar {
+          position: relative;
+        top: 0;
+          margin: 0;
+         padding: 0;
+          width: 70px;
+          margin-top: -145%;
+          
+          height: 100%;
+        }
+        
+        ul{
+          list-style-type: none;
+         
+          width: 60px;
+         top: 0%;
+         padding: 0%;
+         margin: 0%;
+         position: fixed;
+         background-color:  #405D72;
+         height: 100%;
+        }
+          
+        li a {
+          margin-top: 20px;
+          display: block;
+          color: #000;
+          padding: 20px;
+          text-decoration: none;
+         font-size: 15px;
+        }
+         
+        li a:hover {
+          background-color:red;
+          color: white;
+        }
+        
+        i{
+          color: white;
+        } 
+        
+        .box{
+        
+          left: 20%;
+          position: absolute;
+          height: 195px;
+          width: 300px;
+          background-color:rgba(64,93,114,0.2);
+          
+        }
+        
+        .m1{
+          top: 1%;
+        
+        }  
+        .m2{
+          top: 43%;
+         
+        }
+        
+        .m3{
+          top: 85%;
+          
+        }
+        .m4{
+          top: 127%;
+         
+        }
+        .text1{
+         
+          margin-left: 10px;
+          margin-top: 5px;
+        }
+        
+        #home h1{
+          opacity: 1;
         color: white;
-      }
-    
-    i{
-        color: white;
-        margin-left: -10px;
-    } 
-    
-    .box{
-  
-        left: 15%;
+        font-weight: 800;
+        font-size: 16px;
+        } 
+        h1 span{
+          font-size: 12px;
+         font-weight: 300;
+         margin-left: 5px;
+        }
+        .text2{
+          background-color:#405D72;
+          height: 140px;
+          width: 250px;
+          margin-left: 55px;
+          margin-top: 10px;
+          padding: 10px;
+         display: flex;
+        }
+        #home img{
+          height: 100px;
+          width: 100px;
+        }
+        .text2 h2{
+         text-decoration: underline;
+          font-size: 12px;
+          font-weight: 400; 
+          color: white;
+          margin-top: -5px;
+         
+        }
+        .text2 p{
+          opacity: 1;
+          color: white;
+          font-size: 10px;
+        
+        }
+        .text2 p span{
+          color: yellow;
+        }
+        .text2 h2 span{
+          color: red;
+        }
+        .btn,#bt1,#bt2,#btn3,#conbtn{
+          height: 30px;
+          background-color: red;
+          color: white;
+          width: 85px;
+          font-size: 8px;
+        } 
+        
+        #about h1{
+          font-weight: 400;
+          text-align: center;
+          color: white;
+          font-size: 14px;
+        }
+        
+        #about img{
+          margin-left: -10px;
+          height: 100px;
+          width: 200px;
+        }
+        
+        
+        #about .text4{
+        height: 130px;
+        width: 210px;
+        background-color: white;
         position: absolute;
-        height: 200px;
-        width: 300px;
-        background-color:rgba(64,93,114,0.2);
-    }
-    
-    .m1{
-        top: 9%;
-        height: 360px;
-        left: 35%;
-    }  
-    .m2{
-        top: 87%;
-        height: 325px;
-        left: 35%;
-    }
-    
-    .m3{
-        top: 157%;
-        height: 330px;
-        left: 35%;
-    }
-    .m4{
-        top: 228%;
-        height: 319px;
-        left: 35%;
-    }
-    .text1{
-   
-        margin-left: 20px;
-        margin-top: 20px;
-    }
-    
-     #home h1{
-        opacity: 1;
-    color: white;
-    font-weight: 600;
-    } 
-     h1 span{
-        font-size: 12px;
-       font-weight: 300;
-       margin-left: 1px;
-    }
-    .text2{
-        background-color:#405D72;
-        height: 185px;
-        width: 280px;
-        margin-left: 40px;
-        margin-top: 10px;
-        padding: 10px;
-       display: flex;
-    }
-    .text2 h2{
-       text-decoration: underline;
-        font-size: 14px;
-        font-weight: 200; 
-        color: white;
-       
-    }
-    .text2 p{
-        opacity: 1;
-        color: white;
-        font-size: 12px;
-      
-    }
-    .text2 p span{
-        color: yellow;
-    }
-    .text2 h2 span{
-        color: red;
-    }
-    .btn{
-        height: 30px;
-        width: 80px;
+        left: 30%;
+        top: 30%;
+        padding: 3px;
+        }
+        hr{
+          margin-top: -6px;
+        color: lightgrey;
+        margin-left: 2px;
+        margin-right: 2px;
+        }
+        #hr{
+          margin-top: -6px;
+        }
+        
+        #about .text4 h2{
+          font-size: 14px;
+          font-weight: 400px;
+          color:black;
+          margin-left:8px ;
+          margin-top: -2px;
+        }
+        #about .text4 p ,button{
+          margin-left:10px ; 
+          margin-top: -10px;
+          font-size: 10px;
+        } 
+        #gallery h2{
+          font-weight: 400;
+          text-align: center;
+          color: white;
+          font-size:14px ;
+        } 
+        #container{
+        
+        width: 320px;
+        height: 145px;
+        margin-left: -10px;
+        
+        
+        } 
+        
+        #fx {
+          display: flex; 
+           justify-content:space-between;
+          
+          gap: 10px;
+          width: 320px;
+          height: 145px;
+         
+        }
+        #fx img{
+          height: 70px;
+          width: 70px;
+        }
+        
+        .carousel-inner{
+         
+          width: 320px;
+          height: 145px;   
+          
+        }
+        .dv{
+         
+          height: auto;
+        width: 100px;
+          background-color: white;
+          margin-left: 1px;
+         
+        }
+        .b1{
+          position: absolute;
+          top: 25%;
+         left: -3%;
+        }
+        .b1,.b2,.b3 h4{
+          font-weight: 400;
+          color: black;
+          padding: 5px;
+        
+        }
+        #h4{
+          font-size: 10px;
+          margin-top: -3px;
+        }
+        .dv p{
+          font-weight: 400;
+          color: black;
+          font-size: 8px;
+          margin-top: -3px;
+        
+        }
+        .b3 p{
+          margin-left: 10px;
+        }
+        .b2{
+          position: absolute;
+          top: 25%;
+          left:31%;
+        }
+        .b3{
+          position: absolute;
+          top: 25%;
+          left:68%;
+        } 
+         .b1,.b2,.b3 button{
+          margin-left:10px ;
+        } 
+        .b3 p{
+          margin-top: -10px;
+        }
+        .b3 button{
+          margin-bottom: 10px;
+        }
+        .btn:hover{
+          background-color: rgb(210, 25, 25);
+        }
+        .carousel-indicators .act{
         background-color: red;
-        color: white;
-  
-    } 
-    #bt1,#bt2{
-        font-size: 7px;
-    }
-   .logo img{
-    height: 80px;
-    width: 80px;
-    margin-top: 40px;
-    margin-left:10px ;
-   }
-   #about h1{
-    font-weight: 200;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-}
+        }
+        #last3{
+          margin-left: 70px;
+        }
+        
+        #contact h1{
+          color: white;
+          text-align: center;
+          font-size: 14px;
+        }
+        .fm{
+          background-color:rgba(64,93,114,0.2);
+          height: 130px;
+          width: 200px; 
+         
+        
+        }
+        form{
+         
+         
+           margin-left: -10px;  
+           margin-top: -18px;
+        
+        }
+        input,textarea{
+          background-color:#405D72;
+          height: 30px;
+          width: 140px;
+          border: none;
+         padding: 2px;
+         margin-top: -2px;
+        
+        }
+        input::placeholder,textarea::placeholder{
+          color: white;
+          font-size: 8px;
+         
+        }
+        textarea{
+          height: 30px;
+          width: 140px;
+          background-color:#405D72;
+        }
+        .in{
+          margin-top: 2px;
+        }
+        .dv6{
+          position: absolute;
+          top: 27%;
+          left: 53%;
+          height: 110px;
+          width: 150px;
+          background-color: white;
+          padding: 10px;
+          font-size: 7px;
+        }
+        .last-txt{
+          color: white;
+          margin-top: 10px;
+          text-align: center;
+          font-size: 8px;
+         
+        }
+        .last-txt span{
+          color: yellow;
+        }
+        #conbtn{
+        height: 20px;
+        }
+        
+  } 
 
-#about img{
-    width: 300px;
-    height: 150px;
-    margin-left: -20px;
-}
-
-#about .text4{
- height: 190px;
- width: 230px;
- background-color: white;
-position: absolute;
-left: 32%;
-top: 30%;
-padding: 5px;
-}
-hr{
-
-  color: lightgrey;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
- #about .text4 h2{
-    font-size: 12px;
-    font-weight: 300px;
-    color:black;
-    margin-left:10px ;
-   
-}
-#about .text4 p ,button{
-    margin-left:10px ; 
-    font-size: 10px;
-    margin-top: -10px;
-}
-#gallery h2{
-    font-weight: 300;
-    text-align: center;
-    color: white;
-    font-size: 20px
-} 
- #container{
- 
-  width: 500px;
-  height: 280px;
-  margin-left: -90px;
- 
-} 
-
- #fx {
-    display: flex; 
-   justify-content: space-evenly;
-    
-    gap: 10px;
-    width: 500px;
-    height: 280px;
-}
-#fx img{
-    height: 100px;
-    width: 210px;
-}
-
-.carousel-inner{
-   
-    width: 500px;
-    height: 280px;   
-}
-.dv{
-   
-    height: 180px;
-  width: 150px;
-    background-color: white;
-    margin-left: 1px;
-    
-   
-}
-.b1{
-    position: absolute;
-    top: 18%;
-   left: -1%;
-}
-.b1,.b2,.b3 h4{
-    font-weight: 300;
-    color: black;
-    padding: 5px;
-  
-}
-#h4{
-    font-size: 14px;
-}
-.dv p{
-    font-weight: 400;
-    color: black;
-    font-size: 12px;
-    overflow: hidden;
- 
-}
-.b3 p{
-    margin-left: 10px;
-}
-.b2{
-    position: absolute;
-    top: 18%;
-    left:33%;
-}
-.b3{
-    position: absolute;
-    top: 18%;
-    left:69%;
-} 
-.b1,.b2,.b3 button{
-    margin-left:10px ;
-}
-.b3 p{
-    margin-top: -10px;
-}
-.b3 button{
-    margin-bottom: 12px;
-}
-.bt3{
-    height: 40px;
-    width: 90px;
-}
-#btn3{
-    font-size: 6px;
-}
-.dvb1{
-    height: 100px;
-    width: 210px;
-    margin-left: 50px;
-}
-#last3{
-    left: 30%;
-    width: 150px;
-}
-.btn:hover{
-    background-color: rgb(210, 25, 25);
-}
-.carousel-indicators .act{
-background-color: red;
-} 
-#contact h1{
-    color: white;
-    text-align: center;
-    font-size: 20px;
-}
-.fm{
-    background-color:rgba(64,93,114,0.2);
-    height: 220px;
-    width: 240px;  
-}
-form{
-    padding: 5px;
-  
-}
-input,textarea{
-    background-color:#405D72;
-    height: 30px;
-    width: 200px;
-    border: none;
-   padding: 5px;
-  
-}
-input::placeholder,textarea::placeholder{
-    color: white;
-   
-}
-textarea{
-    height: 80px;
-    width: 200px;
-    background-color:#405D72;
-}
-.in{
-    margin-top: 10px;
-}
-.dv6{
-    position: absolute;
-    top: 40%;
-    left: 65%;
-    height: 100px;
-    width: 140px;
-    background-color: white;
-    padding: 10px;
-    font-size: 10px;
-    overflow: hidden;
-}
-.last-txt{
-    color: white;
-    margin-top: 10px;
-    text-align: center;
-    font-size: 7px;
-}
-.last-txt span{
-    color: yellow;
-}
-
-#conbtn{
-    font-size: 8px;
-    text-align: center;
-}
-
-
-}
-@media screen and (max-width: 989) {
+ @media screen and (max-width: 600px) {
     *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-    }
-    body{
+      }
+      body{
       
         height: 100%;
         margin: 0;
@@ -1486,48 +727,50 @@ textarea{
         line-height: 1.8em;
         color: #666;
       
-    }
-    
-    .pimg1{
+      }
+      
+      .pimg1{
         background-image: url(img/first-bg.png);
-         min-height: 450px;
-       
+         min-height: 200px;
+       width: 100%;
            }
-     .pimg2{
+      .pimg2{
          background-image: url(img/second-bg.png);
-          min-height: 450px;
+          min-height: 200px;
+          width: 100%;
          
           }
       .pimg3{
          background-image: url(img/third-bg.png);
-          min-height: 450px;
+          min-height: 200px;
+          width: 100%;
          
         }
       .pimg4{
         background-image: url(img/fourth-bg.png);
-         min-height: 450px;
+         min-height: 200px;
          width: 100%;
         }
       
-    .pimg1 ,.pimg2 ,.pimg3,.pimg4{
+      .pimg1 ,.pimg2 ,.pimg3,.pimg4{
         position: relative;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat; 
-    }
-    
-     .navbar {
+      }
+      
+      .navbar {
         position: relative;
-    top: 0;
+      top: 0;
         margin: 0;
        padding: 0;
         width: 70px;
         margin-top: -145%;
         
         height: 100%;
-    }
-    
-    ul{
+      }
+      
+      ul{
         list-style-type: none;
        
         width: 60px;
@@ -1539,269 +782,1456 @@ textarea{
        height: 100%;
       }
         
-    li a {
+      li a {
         margin-top: 20px;
         display: block;
         color: #000;
         padding: 20px;
         text-decoration: none;
-       font-size: 20px;
+       font-size: 15px;
       }
        
       li a:hover {
         background-color:red;
         color: white;
       }
-    
-    i{
-        color: white;
-    } 
-    
-     .box{
       
-        left: 30%;
+      i{
+        color: white;
+      } 
+      
+      .box{
+      
+        left: 20%;
         position: absolute;
-        height: 400px;
-        width: 500px;
+        height: 195px;
+        width: 300px;
         background-color:rgba(64,93,114,0.2);
-    }
+        
+      }
+      
+      .m1{
+        top: 1%;
+        left: 25%;
     
-    .m1{
-        top: 9%;
-    height: 405px;
-    }  
-    .m2{
-        top: 97%;
-        height: 450px;
-    }
-    
-    .m3{
-        top: 195%;
-        height: 446px;
-    }
-    .m4{
-        top: 292%;
-        height: 400px;
-    }
-    
-    .text1{
+      }  
+      .m2{
+        top: 39%;
+        left: 25%;
+      }
+      
+      .m3{
+        top: 77%;
+        left: 25%;
+        
+      }
+      .m4{
+        top: 117%;
+        left: 25%;
+      }
+      
+      .text1{
        
-        margin-left: 50px;
-        margin-top: 30px;
-    }
-    
-     #home h1{
+        margin-left: 10px;
+        margin-top: 5px;
+      }
+      
+      #home h1{
         opacity: 1;
-    color: white;
-    font-weight: 800;
-    } 
-     h1 span{
-        font-size: 20px;
+      color: white;
+      font-weight: 800;
+      font-size: 16px;
+      } 
+      h1 span{
+        font-size: 12px;
        font-weight: 300;
        margin-left: 5px;
-    }
-    .text2{
+      }
+      .text2{
         background-color:#405D72;
-        height: 200px;
-        width: 440px;
-        margin-left: 80px;
-        margin-top: 20px;
-        padding: 20px;
+        height: 140px;
+        width: 250px;
+        margin-left: 55px;
+        margin-top: 10px;
+        padding: 10px;
        display: flex;
-    }
-    .text2 h2{
+      }
+      #home img{
+        height: 100px;
+        width: 100px;
+      }
+      .text2 h2{
        text-decoration: underline;
-        font-size: 20px;
+        font-size: 12px;
         font-weight: 400; 
         color: white;
+        margin-top: -5px;
        
-    }
-    .text2 p{
+      }
+      .text2 p{
         opacity: 1;
         color: white;
+        font-size: 10px;
       
-    }
-    .text2 p span{
+      }
+      .text2 p span{
         color: yellow;
-    }
-    .text2 h2 span{
+      }
+      .text2 h2 span{
         color: red;
-    }
-    .btn{
-        height: 50px;
+      }
+      .btn,#bt1,#bt2,#btn3,#conbtn{
+        height: 30px;
         background-color: red;
         color: white;
-        font-size: 20px;
-    } 
-    
-     #about h1{
+        width: 85px;
+        font-size: 8px;
+      } 
+      
+      #about h1{
         font-weight: 400;
         text-align: center;
         color: white;
-    }
-    
-    #about img{
-        margin-left: -60px;
-    }
-    
-    #about .text4{
-     height: 280px;
-     width: 320px;
-     background-color: white;
-    position: absolute;
-    left: 45%;
-    top: 30%;
-    padding: 5px;
-    }
-    hr{
-        margin-top: -20px;
+        font-size: 14px;
+      }
+      
+      #about img{
+        margin-left: -10px;
+        height: 100px;
+        width: 200px;
+      }
+      
+      
+      #about .text4{
+      height: 130px;
+      width: 210px;
+      background-color: white;
+      position: absolute;
+      left: 30%;
+      top: 30%;
+      padding: 3px;
+      }
+      hr{
+        margin-top: -6px;
       color: lightgrey;
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-    
-     #about .text4 h2{
-        font-size: 25px;
+      margin-left: 2px;
+      margin-right: 2px;
+      }
+      #hr{
+        margin-top: -6px;
+      }
+      
+      #about .text4 h2{
+        font-size: 14px;
         font-weight: 400px;
         color:black;
-        margin-left:10px ;
-    }
-    #about .text4 p ,button{
+        margin-left:8px ;
+        margin-top: -2px;
+      }
+      #about .text4 p ,button{
         margin-left:10px ; 
-    } 
-     #gallery h2{
+        margin-top: -10px;
+        font-size: 10px;
+      } 
+      #gallery h2{
         font-weight: 400;
         text-align: center;
         color: white;
-    } 
-     #container{
-     
-      width: 800px;
-      height: 350px;
-      margin-left: -150px;
-     
-    } 
-     #fx {
+        font-size:14px ;
+      } 
+      #container{
+      
+      width: 320px;
+      height: 145px;
+      margin-left: -10px;
+      
+      
+      } 
+      
+      #fx {
         display: flex; 
          justify-content:space-between;
         
-        gap: 20px;
-        width: 800px;
-        height: 200px;
-    }
-    
-    .carousel-inner{
+        gap: 10px;
+        width: 320px;
+        height: 145px;
        
-        width: 800px;
-        height: 350px;   
-    }
-    .dv{
+      }
+      #fx img{
+        height: 70px;
+        width: 70px;
+      }
+      
+      .carousel-inner{
        
-        height: 200px;
-      width: 230px;
+        width: 320px;
+        height: 145px;   
+        
+      }
+      .dv{
+       
+        height: auto;
+      width: 100px;
         background-color: white;
-        margin-left: 2px;
+        margin-left: 1px;
        
-    }
-    .b1{
-        position: absolute;
-        top: 50%;
-       left: 1%;
-    }
-    .b1,.b2,.b3 h4{
-        font-weight: 400;
-        color: black;
-        padding: 10px;
-    }
-    .dv p{
-        font-weight: 400;
-        color: black;
-     
-    }
-    .b3 p{
-        margin-left: 10px;
-    }
-    .b2{
-        position: absolute;
-        top: 50%;
-        left:35%;
-    }
-    .b3{
-        position: absolute;
-        top: 50%;
-        left:70%;
-    } 
-    .b1,.b2,.b3 button{
-        margin-left:10px ;
-    }
-    .b3 p{
-        margin-top: -10px;
-    }
-    .b3 button{
-        margin-bottom: 10px;
-    }
-    .btn:hover{
-        background-color: rgb(210, 25, 25);
-    }
-    .carousel-indicators .act{
-    background-color: red;
-    }
-    #contact h1{
-        color: white;
-        text-align: center;
-    }
-    .fm{
-        background-color:rgba(64,93,114,0.2);
-        height: 300px;
-        width: 400px;  
-    }
-    form{
-        padding: 20px;
-      
-    }
-    input,textarea{
-        background-color:#405D72;
-        height: 50px;
-        width: 300px;
-        border: none;
-       padding: 10px;
-      
-    }
-    input::placeholder,textarea::placeholder{
-        color: white;
-       
-    }
-    textarea{
-        height: 80px;
-        width: 300px;
-        background-color:#405D72;
-    }
-    .in{
-        margin-top: 10px;
-    }
-    .dv6{
+      }
+      .b1{
         position: absolute;
         top: 25%;
-        left: 68%;
-        height: 200px;
-        width: 300px;
+       left: -3%;
+      }
+      .b1,.b2,.b3 h4{
+        font-weight: 400;
+        color: black;
+        padding: 5px;
+      
+      }
+      #h4{
+        font-size: 10px;
+        margin-top: -3px;
+      }
+      .dv p{
+        font-weight: 400;
+        color: black;
+        font-size: 8px;
+        margin-top: -3px;
+      
+      }
+      .b3 p{
+        margin-left: 10px;
+      }
+      .b2{
+        position: absolute;
+        top: 25%;
+        left:31%;
+      }
+      .b3{
+        position: absolute;
+        top: 25%;
+        left:68%;
+      } 
+       .b1,.b2,.b3 button{
+        margin-left:10px ;
+      } 
+      .b3 p{
+        margin-top: -10px;
+      }
+      .b3 button{
+        margin-bottom: 10px;
+      }
+      .btn:hover{
+        background-color: rgb(210, 25, 25);
+      }
+      .carousel-indicators .act{
+      background-color: red;
+      }
+      #last3{
+        margin-left: 70px;
+      }
+      
+      #contact h1{
+        color: white;
+        text-align: center;
+        font-size: 14px;
+      }
+      .fm{
+        background-color:rgba(64,93,114,0.2);
+        height: 130px;
+        width: 200px;
+      
+      }
+      form{
+       
+       
+         margin-left: -10px;  
+         margin-top: -18px;
+      
+      }
+      input,textarea{
+        background-color:#405D72;
+        height: 30px;
+        width: 140px;
+        border: none;
+       padding: 2px;
+       margin-top: -2px;
+      
+      }
+      input::placeholder,textarea::placeholder{
+        color: white;
+        font-size: 8px;
+       
+      }
+      textarea{
+        height: 30px;
+        width: 140px;
+        background-color:#405D72;
+      }
+      .in{
+        margin-top: 2px;
+      }
+      .dv6{
+        position: absolute;
+        top: 27%;
+        left: 53%;
+        height: 110px;
+        width: 150px;
         background-color: white;
         padding: 10px;
-    }
-    .last-txt{
+        font-size: 7px;
+      }
+      .last-txt{
         color: white;
-        margin-top: 40px;
+        margin-top: 20px;
         text-align: center;
-    }
-    .last-txt span{
+        font-size: 8px;
+       
+      }
+      .last-txt span{
         color: yellow;
+      }
+      #conbtn{
+      height: 20px;
+      }
+      
+} 
+@media screen and (min-width: 601px) and (max-width:660px){
+ 
+  *{
+    margin: 0;
+   padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+  
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+  
+  }
+  
+  .pimg1{
+    background-image: url(img/first-bg.png);
+     min-height: 300px;
+   width: 100%;
+       }
+  .pimg2{
+     background-image: url(img/second-bg.png);
+      min-height: 300px;
+      width: 100%;
+     
+      }
+  .pimg3{
+     background-image: url(img/third-bg.png);
+      min-height: 300px;
+      width: 100%;
+     
     }
+  .pimg4{
+    background-image: url(img/fourth-bg.png);
+     min-height: 300px;
+     width: 100%;
+    }
+  
+  .pimg1 ,.pimg2 ,.pimg3,.pimg4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+  }
+  
+  .navbar {
+    position: relative;
+  top: 0;
+    margin: 0;
+   padding: 0;
+    width: 70px;
+    margin-top: -145%;
+    
+    height: 100%;
+  }
+  
+  ul{
+    list-style-type: none;
+   
+    width: 60px;
+   top: 0%;
+   padding: 0%;
+   margin: 0%;
+   position: fixed;
+   background-color:  #405D72;
+   height: 100%;
+  }
+    
+  li a {
+    margin-top: 20px;
+    display: block;
+    color: #000;
+    padding: 20px;
+    text-decoration: none;
+   font-size: 20px;
+  }
+   
+  li a:hover {
+    background-color:red;
+    color: white;
+  }
+  
+  i{
+    color: white;
+  } 
+  
+  .box{
+  
+    left: 20%;
+    position: absolute;
+    height: 260px;
+    width: 350px;
+    background-color:rgba(64,93,114,0.2);
+   
+  }
+  
+  .m1{
+    top: 8%;
+  
+  }  
+  .m2{
+   
+    top: 58%;
+    height: 300px;
+  }
+  
+  .m3{
+    top: 116%;
+    height: 300px;
+  }
+  .m4{
+    top: 174%;
+  height: 302px;
+  }
+  
+  .text1{
+   
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  
+  #home h1{
+    opacity: 1;
+  color: white;
+  font-weight: 800;
+  
+  } 
+  h1 span{
+    font-size: 15px;
+   font-weight: 300;
+   margin-left: 5px;
+  }
+  .text2{
+    background-color:#405D72;
+    height: 180px;
+    width: 360px;
+    margin-left: 80px;
+    margin-top: 10px;
+    padding: 10px;
+   display: flex;
+  }
+  .text2 h2{
+   text-decoration: underline;
+    font-size: 14px;
+    font-weight: 400; 
+    color: white;
+   
+  }
+  .text2 p{
+    opacity: 1;
+    color: white;
+    font-size: 12px;
+  
+  }
+  #home img{
+    height: 120px;
+    width: 120px;
+  }
+  .text2 p span{
+    color: yellow;
+  }
+  .text2 h2 span{
+    color: red;
+  }
+  .btn,#bt1,#bt2,#conbtn{
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    
+  } 
+  
+  #about h1{
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+  
+  #about img{
+    margin-left: -40px;
+    height: 150px;
+    width: 280px;
+  }
+  
+  #about .text4{
+  height: 170px;
+  width: 320px;
+  background-color: white;
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  padding: 5px;
+  }
+  hr{
+    margin-top: -4px;
+  color: lightgrey;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+  
+  #about .text4 h2{
+    font-size: 20px;
+    font-weight: 400px;
+    color:black;
+    margin-left:10px ;
+    margin-top: 3px;
+  }
+  #about .text4 p{
+    font-size: 12px;
+    margin-top: -10px;
+  }
+  #about .text4 p ,button ,#bt2{
+    margin-left: 10px ; 
+  } 
+  #gallery h2{
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  } 
+  #container{
+  
+  width: 470px;
+  height: 240px;
+  margin-left: -50px;
+ 
+  } 
+  #fx {
+    display: flex; 
+     justify-content:space-between;
+    
+    gap: 20px;
+    width: 470px;
+    height: 240px;
+   
+  }
+  
+  .carousel-inner{
+   
+    width: 470px;
+    height: 240px;   
+  
+  }
+  .dv{
+   
+    height: auto;
+  width: 130px;
+    background-color: white;
+    margin-left: 2px;
+   
+  }
+  #fx img{
+    height: 100px;
+    width: 100px;
+  }
+  .b1{
+    position: absolute;
+    top: 30%;
+   left: -1%;
+  }
+  .b1,.b2,.b3 h4{
+    font-weight: 400;
+    color: black;
+    padding: 10px;
+    
+  }
+  #h4{
+    font-size: 14px;
+    margin-top: -5px;
+  }
+  .dv p{
+    font-weight: 400;
+    color: black;
+    font-size: 12px;
+  
+  }
+  #btn3{
+    width: 100px;
+    height: 40px;
+    font-size: 10px;
+  }
+  .o{
+    margin-top: 16px;
+  }
+  .b3 p{
+    margin-left: 10px;
+  }
+  .b2{
+    position: absolute;
+    top: 30%;
+    left:35%;
+  }
+  .b3{
+    position: absolute;
+    top: 30%;
+    left:70%;
+  } 
+  .b1,.b2,.b3 button{
+    margin-left:10px ;
+  }
+  .b3 p{
+    margin-top: -10px;
+  }
+  .b3 button{
+    margin-bottom: 10px;
+  }
+  .btn:hover{
+    background-color: rgb(210, 25, 25);
+  }
+  .carousel-indicators .act{
+  background-color: red;
+  }
+  #last3{
+    margin-left: 60px;
+  }
+  #contact h1{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+  }
+  .fm{
+    background-color:rgba(64,93,114,0.2);
+    height: 210px;
+    width: 400px; 
+ 
+  }
+  form{
+    padding: 20px;
+    margin-top: -10px;
+  
+  }
+  input,textarea{
+    background-color:#405D72;
+    height: 30px;
+    width: 220px;
+    border: none;
+   padding: 10px;
+  
+  }
+  input::placeholder,textarea::placeholder{
+    color: white;
+    font-size: 12px;
+   
+  }
+  textarea{
+    height: 40px;
+    width: 250px;
+    background-color:#405D72;
+  }
+  .in{
+    margin-top: 10px;
+  }
+  .dv6{
+    position: absolute;
+    top: 26%;
+    left: 72%;
+    height: 160px;
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+    font-size: 11px;
+  }
+  .last-txt{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 11px;
+  }
+  .last-txt span{
+    color: yellow;
+  }
 }
+@media screen and (min-width: 661px) and (max-width:898px){
   
+  *{
+    margin: 0;
+   padding: 0;
+    box-sizing: border-box;
+  }
+  body{
   
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
   
+  }
   
+  .pimg1{
+    background-image: url(img/first-bg.png);
+     min-height: 300px;
+   width: 100%;
+       }
+  .pimg2{
+     background-image: url(img/second-bg.png);
+      min-height: 300px;
+      width: 100%;
+     
+      }
+  .pimg3{
+     background-image: url(img/third-bg.png);
+      min-height: 300px;
+      width: 100%;
+     
+    }
+  .pimg4{
+    background-image: url(img/fourth-bg.png);
+     min-height: 300px;
+     width: 100%;
+    }
   
+  .pimg1 ,.pimg2 ,.pimg3,.pimg4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+  }
+  
+  .navbar {
+    position: relative;
+  top: 0;
+    margin: 0;
+   padding: 0;
+    width: 70px;
+    margin-top: -145%;
+    
+    height: 100%;
+  }
+  
+  ul{
+    list-style-type: none;
+   
+    width: 60px;
+   top: 0%;
+   padding: 0%;
+   margin: 0%;
+   position: fixed;
+   background-color:  #405D72;
+   height: 100%;
+  }
+    
+  li a {
+    margin-top: 20px;
+    display: block;
+    color: #000;
+    padding: 20px;
+    text-decoration: none;
+   font-size: 20px;
+  }
+   
+  li a:hover {
+    background-color:red;
+    color: white;
+  }
+  
+  i{
+    color: white;
+  } 
+  
+  .box{
+  
+    left: 20%;
+    position: absolute;
+    height: 260px;
+    width: 350px;
+    background-color:rgba(64,93,114,0.2);
+   
+  }
+  
+  .m1{
+    top: 8%;
+  left: 30%;
+  }  
+  .m2{
+    top: 58%;
+    height: 300px;
+    left: 30%;
+  }
+  
+  .m3{
+    top: 116%;
+    height: 300px;
+    left: 30%;
+  }
+  .m4{
+    top: 174%;
+  height: 302px;
+  left: 30%;
+  }
+  
+  .text1{
+   
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  
+  #home h1{
+    opacity: 1;
+  color: white;
+  font-weight: 800;
+  
+  } 
+  h1 span{
+    font-size: 15px;
+   font-weight: 300;
+   margin-left: 5px;
+  }
+  .text2{
+    background-color:#405D72;
+    height: 180px;
+    width: 360px;
+    margin-left: 80px;
+    margin-top: 10px;
+    padding: 10px;
+   display: flex;
+  }
+  .text2 h2{
+   text-decoration: underline;
+    font-size: 14px;
+    font-weight: 400; 
+    color: white;
+   
+  }
+  .text2 p{
+    opacity: 1;
+    color: white;
+    font-size: 12px;
+  
+  }
+  #home img{
+    height: 120px;
+    width: 120px;
+  }
+  .text2 p span{
+    color: yellow;
+  }
+  .text2 h2 span{
+    color: red;
+  }
+  .btn,#bt1,#bt2,#conbtn{
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    
+  } 
+  
+  #about h1{
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+  
+  #about img{
+    margin-left: -40px;
+    height: 150px;
+    width: 280px;
+  }
+  
+  #about .text4{
+  height: 170px;
+  width: 320px;
+  background-color: white;
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  padding: 5px;
+  }
+  hr{
+    margin-top: -4px;
+  color: lightgrey;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+  
+  #about .text4 h2{
+    font-size: 20px;
+    font-weight: 400px;
+    color:black;
+    margin-left:10px ;
+    margin-top: 3px;
+  }
+  #about .text4 p{
+    font-size: 12px;
+    margin-top: -10px;
+  }
+  #about .text4 p ,button ,#bt2{
+    margin-left: 10px ; 
+  } 
+  #gallery h2{
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  } 
+  #container{
+  
+  width: 470px;
+  height: 240px;
+  margin-left: -50px;
+  
+  } 
+  #fx {
+    display: flex; 
+     justify-content:space-between;
+    
+    gap: 20px;
+    width: 470px;
+    height: 240px;
+    
+  }
+  
+  .carousel-inner{
+   
+    width: 470px;
+    height: 240px;   
+   
+  }
+  .dv{
+   
+    height: auto;
+  width: 130px;
+    background-color: white;
+    margin-left: 2px;
+   
+  }
+  #fx img{
+    height: 100px;
+    width: 100px;
+  }
+  .b1{
+    position: absolute;
+    top: 30%;
+   left: -1%;
+  }
+  .b1,.b2,.b3 h4{
+    font-weight: 400;
+    color: black;
+    padding: 10px;
+    
+  }
+  #h4{
+    font-size: 14px;
+    margin-top: -5px;
+  }
+  .dv p{
+    font-weight: 400;
+    color: black;
+    font-size: 12px;
+  
+  }
+  #btn3{
+    width: 100px;
+    height: 40px;
+    font-size: 10px;
+  }
+  .o{
+    margin-top: 16px;
+  }
+  .b3 p{
+    margin-left: 10px;
+  }
+  .b2{
+    position: absolute;
+    top: 30%;
+    left:35%;
+  }
+  .b3{
+    position: absolute;
+    top: 30%;
+    left:70%;
+  } 
+  .b1,.b2,.b3 button{
+    margin-left:10px ;
+  }
+  .b3 p{
+    margin-top: -10px;
+  }
+  .b3 button{
+    margin-bottom: 10px;
+  }
+  .btn:hover{
+    background-color: rgb(210, 25, 25);
+  }
+  .carousel-indicators .act{
+  background-color: red;
+  }
+  #last3{
+    margin-left: 60px;
+  }
+  #contact h1{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+  }
+  .fm{
+    background-color:rgba(64,93,114,0.2);
+    height: 210px;
+    width: 400px; 
+  
+  }
+  form{
+    padding: 20px;
+    margin-top: -10px;
+  
+  }
+  input,textarea{
+    background-color:#405D72;
+    height: 30px;
+    width: 220px;
+    border: none;
+   padding: 10px;
+  
+  }
+  input::placeholder,textarea::placeholder{
+    color: white;
+    font-size: 12px;
+   
+  }
+  textarea{
+    height: 40px;
+    width: 250px;
+    background-color:#405D72;
+  }
+  .in{
+    margin-top: 10px;
+  }
+  .dv6{
+    position: absolute;
+    top: 26%;
+    left: 72%;
+    height: 160px;
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+    font-size: 11px;
+  }
+  .last-txt{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 11px;
+  }
+  .last-txt span{
+    color: yellow;
+  }
+}
+@media screen and (min-width: 899px) and (max-width:989px){
+  
+  *{
+    margin: 0;
+   padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+  
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+  
+  }
+  
+  .pimg1{
+    background-image: url(img/first-bg.png);
+     min-height: 300px;
+   width: 100%;
+       }
+  .pimg2{
+     background-image: url(img/second-bg.png);
+      min-height: 300px;
+      width: 100%;
+     
+      }
+  .pimg3{
+     background-image: url(img/third-bg.png);
+      min-height: 300px;
+      width: 100%;
+     
+    }
+  .pimg4{
+    background-image: url(img/fourth-bg.png);
+     min-height: 300px;
+     width: 100%;
+    }
+  
+  .pimg1 ,.pimg2 ,.pimg3,.pimg4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+  }
+  
+  .navbar {
+    position: relative;
+  top: 0;
+    margin: 0;
+   padding: 0;
+    width: 70px;
+    margin-top: -145%;
+    
+    height: 100%;
+  }
+  
+  ul{
+    list-style-type: none;
+   
+    width: 60px;
+   top: 0%;
+   padding: 0%;
+   margin: 0%;
+   position: fixed;
+   background-color:  #405D72;
+   height: 100%;
+  }
+    
+  li a {
+    margin-top: 20px;
+    display: block;
+    color: #000;
+    padding: 20px;
+    text-decoration: none;
+   font-size: 20px;
+  }
+   
+  li a:hover {
+    background-color:red;
+    color: white;
+  }
+  
+  i{
+    color: white;
+  } 
+  
+  .box{
+  
+    left: 20%;
+    position: absolute;
+    height: 260px;
+    width: 350px;
+    background-color:rgba(64,93,114,0.2);
+   
+  }
+  
+  .m1{
+    top: 9%;
+  left: 40%;
+  }  
+  .m2{
+    top: 65%;
+    height: 300px;
+    left: 40%;
+  }
+  
+  .m3{
+    top: 129%;
+    height: 300px;
+    left: 40%;
+  }
+  .m4{
+    top: 193%;
+  height: 302px;
+  left: 40%;
+  }
+  
+  .text1{
+   
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  
+  #home h1{
+    opacity: 1;
+  color: white;
+  font-weight: 800;
+  
+  } 
+  h1 span{
+    font-size: 15px;
+   font-weight: 300;
+   margin-left: 5px;
+  }
+  .text2{
+    background-color:#405D72;
+    height: 180px;
+    width: 360px;
+    margin-left: 80px;
+    margin-top: 10px;
+    padding: 10px;
+   display: flex;
+  }
+  .text2 h2{
+   text-decoration: underline;
+    font-size: 14px;
+    font-weight: 400; 
+    color: white;
+   
+  }
+  .text2 p{
+    opacity: 1;
+    color: white;
+    font-size: 12px;
+  
+  }
+  #home img{
+    height: 120px;
+    width: 120px;
+  }
+  .text2 p span{
+    color: yellow;
+  }
+  .text2 h2 span{
+    color: red;
+  }
+  .btn,#bt1,#bt2,#conbtn{
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    
+  } 
+  
+  #about h1{
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+  
+  #about img{
+    margin-left: -40px;
+    height: 150px;
+    width: 280px;
+  }
+  
+  #about .text4{
+  height: 170px;
+  width: 320px;
+  background-color: white;
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  padding: 5px;
+  }
+  hr{
+    margin-top: -4px;
+  color: lightgrey;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+  
+  #about .text4 h2{
+    font-size: 20px;
+    font-weight: 400px;
+    color:black;
+    margin-left:10px ;
+    margin-top: 3px;
+  }
+  #about .text4 p{
+    font-size: 12px;
+    margin-top: -10px;
+  }
+  #about .text4 p ,button ,#bt2{
+    margin-left: 10px ; 
+  } 
+  #gallery h2{
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  } 
+  #container{
+  
+  width: 470px;
+  height: 240px;
+  margin-left: -50px;
+  
+  } 
+  #fx {
+    display: flex; 
+     justify-content:space-between;
+    
+    gap: 20px;
+    width: 470px;
+    height: 240px;
+    
+  }
+  
+  .carousel-inner{
+   
+    width: 470px;
+    height: 240px;   
+   
+  }
+  .dv{
+   
+    height: auto;
+  width: 130px;
+    background-color: white;
+    margin-left: 2px;
+   
+  }
+  #fx img{
+    height: 100px;
+    width: 100px;
+  }
+  .b1{
+    position: absolute;
+    top: 30%;
+   left: -1%;
+  }
+  .b1,.b2,.b3 h4{
+    font-weight: 400;
+    color: black;
+    padding: 10px;
+    
+  }
+  #h4{
+    font-size: 14px;
+    margin-top: -5px;
+  }
+  .dv p{
+    font-weight: 400;
+    color: black;
+    font-size: 12px;
+  
+  }
+  #btn3{
+    width: 100px;
+    height: 40px;
+    font-size: 10px;
+  }
+  .o{
+    margin-top: 16px;
+  }
+  .b3 p{
+    margin-left: 10px;
+  }
+  .b2{
+    position: absolute;
+    top: 30%;
+    left:35%;
+  }
+  .b3{
+    position: absolute;
+    top: 30%;
+    left:70%;
+  } 
+  .b1,.b2,.b3 button{
+    margin-left:10px ;
+  }
+  .b3 p{
+    margin-top: -10px;
+  }
+  .b3 button{
+    margin-bottom: 10px;
+  }
+  .btn:hover{
+    background-color: rgb(210, 25, 25);
+  }
+  .carousel-indicators .act{
+  background-color: red;
+  }
+  #last3{
+    margin-left: 60px;
+  }
+  #contact h1{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+  }
+  .fm{
+    background-color:rgba(64,93,114,0.2);
+    height: 210px;
+    width: 400px; 
+  
+  }
+  form{
+    padding: 20px;
+    margin-top: -10px;
+  
+  }
+  input,textarea{
+    background-color:#405D72;
+    height: 30px;
+    width: 220px;
+    border: none;
+   padding: 10px;
+  
+  }
+  input::placeholder,textarea::placeholder{
+    color: white;
+    font-size: 12px;
+   
+  }
+  textarea{
+    height: 40px;
+    width: 250px;
+    background-color:#405D72;
+  }
+  .in{
+    margin-top: 10px;
+  }
+  .dv6{
+    position: absolute;
+    top: 26%;
+    left: 72%;
+    height: 160px;
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+    font-size: 11px;
+  }
+  .last-txt{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 11px;
+  }
+  .last-txt span{
+    color: yellow;
+  }
+}
+
+
   
   
   
