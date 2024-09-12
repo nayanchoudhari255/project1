@@ -427,19 +427,24 @@ textarea{
         
         .m1{
           top: 1%;
-        
+          left: 20%;
+      
         }  
         .m2{
-        top: 48%;
-         
+        top: 37%;
+        left: 20%;
+      
         }
         
         .m3{
-          top: 85%;
-          
+          top: 73%;
+          left: 20%;
+      
         }
         .m4{
-          top: 127%;
+          top: 109%;
+          left: 20%;
+      
          
         }
         .text1{
@@ -815,22 +820,22 @@ textarea{
     
       }  
       .m2{
-        /* top: 44%; */
-        top: 39%;
+       
+        top: 37%;
         left: 25%;
       
 
       }
       
       .m3{
-        /* top: 87%; */
-        top: 77%;
+        
+        top: 73%;
         left: 25%;
         
       }
       .m4{
-        /* top: 130%; */
-        top: 117%;
+     
+        top: 109%;
         left: 25%;
       }
       
@@ -1201,21 +1206,24 @@ textarea{
   
   .m1{
     top: 8%;
-  
+  left: 25%;
   }  
   .m2{
    
-    top: 58%;
+    top: 56%;
     height: 300px;
+    left: 25%;
   }
   
   .m3{
-    top: 116%;
+    top: 112%;
     height: 300px;
+    left: 25%;
   }
   .m4{
-    top: 174%;
+    top: 168%;
   height: 302px;
+  left: 25%;
   }
   
   .text1{
@@ -1577,22 +1585,22 @@ textarea{
   }
   
   .m1{
-    top: 8%;
+    top: 7%;
   left: 30%;
   }  
   .m2{
-    top: 58%;
+    top: 54%;
     height: 300px;
     left: 30%;
   }
   
   .m3{
-    top: 116%;
+    top: 109%;
     height: 300px;
     left: 30%;
   }
   .m4{
-    top: 174%;
+    top: 163%;
   height: 302px;
   left: 30%;
   }
@@ -1956,7 +1964,7 @@ textarea{
   }
   
   .m1{
-    top: 8%;
+    top: 7%;
   left: 40%;
   }  
   .m2{
